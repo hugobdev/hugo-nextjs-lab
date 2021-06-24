@@ -1,0 +1,117 @@
+[
+  {
+    "slug": "great-smoky-mountains",
+    "title": "Great Smoky Mountains",
+    "description": "The Great Smoky Mountains, part of the Appalachian Mountains, span a wide range of elevations, making them home to over 400 vertebrate species, 100 tree species, and 5000 plant species.",
+    "photos": [
+      {
+        "path": "kirk-thornton-ZXwjii7h5lI-unsplash.jpg"
+      },
+      {
+        "path": "a-n-v-e-s-h-5B9P725PnuQ-unsplash.jpg"
+      },
+      {
+        "path": "chris-ried-D2NvTDuPME4-unsplash.jpg"
+      },
+      {
+        "path": "ivana-cajina-HDd-NQ_AMNQ-unsplash.jpg"
+      },
+      {
+        "path": "jonny-james-0TjwngxaYxk-unsplash.jpg"
+      },
+      {
+        "path": "kirk-thornton-ivKjAj9IISY-unsplash.jpg"
+      },
+      {
+        "path": "loren-isaac-a9L1eSyt25I-unsplash.jpg"
+      },
+      {
+        "path": "rachel-davis-SZbSyPX3Lsk-unsplash.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "acadia",
+    "title": "Acadia",
+    "description": "Covering most of Mount Desert Island and other coastal islands, Acadia features the tallest mountain on the Atlantic coast of the United States, granite peaks, ocean shoreline, woodlands, and lakes.",
+    "photos": [
+      {
+        "path": "aaron-weiss-yv6FRf8J5Sg-unsplash.jpg"
+      },
+      {
+        "path": "alan-howe-Z67kLObHIMs-unsplash.jpg"
+      },
+      {
+        "path": "mick-haupt-p76_Ro6BM8o-unsplash.jpg"
+      },
+      {
+        "path": "mick-haupt-zkig6NEPeBs-unsplash.jpg"
+      },
+      {
+        "path": "nanda-firdaus-_CZRd9eDmUM-unsplash.jpg"
+      },
+      {
+        "path": "rachel-c-2UdHaqZevn0-unsplash.jpg"
+      },
+      {
+        "path": "trevor-hayes-ZC39ebY-rDs-unsplash.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "channel-islands-ca",
+    "title": "Channel Islands",
+    "description": "Five of the eight Channel Islands are protected, with half of the park's area underwater. The islands have a unique Mediterranean ecosystem originally settled by the Chumash people.",
+    "photos": [
+      {
+        "path": "jared-murray-lU2oWk1OGjE-unsplash.jpg"
+      },
+      {
+        "path": "jeremy-bishop-6LNH0_7gd0M-unsplash.jpg"
+      },
+      {
+        "path": "jeremy-bishop-IRsY8g_TvxM-unsplash.jpg"
+      },
+      {
+        "path": "priya-karkare-EBfkCLPHQL8-unsplash.jpg"
+      },
+      {
+        "path": "priya-karkare-FzPKqt3LTTY-unsplash.jpg"
+      },
+      {
+        "path": "acadia/rachel-c-2UdHaqZevn0-unsplash.jpg"
+      },
+      {
+        "path": "acadia/trevor-hayes-ZC39ebY-rDs-unsplash.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "grand-canyon",
+    "title": "Grand Canyon",
+    "description": "The Grand Canyon, carved by the mighty Colorado River, is 277 miles (446 km) long, up to 1 mile (1.6 km) deep, and up to 15 miles (24 km) wide.",
+    "photos": [
+      {
+        "path": "alan-carrillo-OJFI4qUmKWU-unsplash.jpg"
+      },
+      {
+        "path": "ameer-basheer-gV6taBJuBTk-unsplash.jpg"
+      },
+      {
+        "path": "ameer-basheer-Xrx3WWyrwes-unsplash.jpg"
+      },
+      {
+        "path": "cara-fuller-9_x5jYJw2VQ-unsplash.jpg"
+      },
+      {
+        "path": "gert-boers-qQC8tyG_JVA-unsplash.jpg"
+      },
+      {
+        "path": "mike-swigunski-ijaivmvmSKQ-unsplash.jpg"
+      },
+      {
+        "path": "mike-swigunski-JG35vcXkeMU-unsplash.jpg"
+      }
+    ]
+  }
+]
