@@ -16,7 +16,7 @@ export default class Document extends NextDocument {
       <Html lang='en'>
         <Head>
           <link
-            href='https://fonts.googleapis.com/css2?family=Inter'
+            href='https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap'
             rel='stylesheet'
           />
           <style
