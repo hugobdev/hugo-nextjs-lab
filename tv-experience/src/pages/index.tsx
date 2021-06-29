@@ -1,56 +1,29 @@
 import Head from 'next/head';
-import {styled} from '@/theme.config';
-
-let Menubar = styled('nav', {});
-
-let MenubarList = styled('ul', {
-  background: 'hsla(222, 36%, 11%, 0.7)',
-  borderRadius: 100,
-  backdropFilter: 'blur(15px);',
-  display: 'grid',
-  gridAutoFlow: 'column',
-  gridAutoColumns: 'max-content',
-  gap: 20,
-  padding: 5,
-  width: 'max-content',
-
-  listStyleType: 'none',
-  margin: 0,
-});
-
-let MenubarItem = styled('li', {});
-
-let MenubarButton = styled('a', {
-  display: 'inline-block',
-  padding: '5px 30px',
-  background: 'hsla(219, 9%, 65%, 1)',
-  color: 'white',
-  borderRadius: 100,
-});
+import * as Menubar from '@/components/Menubar';
 
 function Header() {
   return (
     <header>
       <div />
-      <Menubar>
-        <MenubarList>
-          <MenubarItem>
-            <MenubarButton href='#'>Most Visited</MenubarButton>
-          </MenubarItem>
-          <MenubarItem>
-            <MenubarButton href='#'>Biggest</MenubarButton>
-          </MenubarItem>
-          <MenubarItem>
-            <MenubarButton href='#'>By State</MenubarButton>
-          </MenubarItem>
-          <MenubarItem>
-            <MenubarButton href='#'>Search</MenubarButton>
-          </MenubarItem>
-          <MenubarItem>
-            <MenubarButton href='#'>Settings</MenubarButton>
-          </MenubarItem>
-        </MenubarList>
-      </Menubar>
+      <Menubar.Root>
+        <Menubar.List>
+          <Menubar.Item>
+            <Menubar.Button href='#'>Most Visited</Menubar.Button>
+          </Menubar.Item>
+          <Menubar.Item>
+            <Menubar.Button href='#'>Biggest</Menubar.Button>
+          </Menubar.Item>
+          <Menubar.Item>
+            <Menubar.Button href='#'>By State</Menubar.Button>
+          </Menubar.Item>
+          <Menubar.Item>
+            <Menubar.Button href='#'>Search</Menubar.Button>
+          </Menubar.Item>
+          <Menubar.Item>
+            <Menubar.Button href='#'>Settings</Menubar.Button>
+          </Menubar.Item>
+        </Menubar.List>
+      </Menubar.Root>
     </header>
   );
 }
