@@ -1,32 +1,5 @@
 import Head from 'next/head';
-import * as Menubar from '@/components/Menubar';
-
-function Header() {
-  return (
-    <header>
-      <div />
-      <Menubar.Root>
-        <Menubar.List>
-          <Menubar.Item>
-            <Menubar.Button href='#'>Most Visited</Menubar.Button>
-          </Menubar.Item>
-          <Menubar.Item>
-            <Menubar.Button href='#'>Biggest</Menubar.Button>
-          </Menubar.Item>
-          <Menubar.Item>
-            <Menubar.Button href='#'>By State</Menubar.Button>
-          </Menubar.Item>
-          <Menubar.Item>
-            <Menubar.Button href='#'>Search</Menubar.Button>
-          </Menubar.Item>
-          <Menubar.Item>
-            <Menubar.Button href='#'>Settings</Menubar.Button>
-          </Menubar.Item>
-        </Menubar.List>
-      </Menubar.Root>
-    </header>
-  );
-}
+import Header from '@/components/Header';
 
 export default function Home() {
   return (
