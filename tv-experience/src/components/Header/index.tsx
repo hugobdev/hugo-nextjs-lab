@@ -9,6 +9,8 @@ let Root = styled('header', {
   gridTemplateColumns: '1fr 3fr 1fr',
   alignItems: 'center',
   padding: '$large',
+  position: 'relative',
+  zIndex: '$1',
 });
 
 export default function Header() {

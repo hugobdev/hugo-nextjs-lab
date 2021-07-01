@@ -28,5 +28,13 @@ export let {styled, css, global, keyframes, getCssString, theme} = createCss({
       medium: '20px',
       large: '30px',
     },
+    zIndices: {
+      1: '100',
+      2: '200',
+      3: '300',
+      4: '400',
+      min: '1',
+      max: '999',
+    },
   },
 });
