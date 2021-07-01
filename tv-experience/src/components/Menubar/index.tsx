@@ -22,7 +22,7 @@ export let Item = styled('li', {});
 export let Button = styled('a', {
   display: 'inline-block',
   padding: '$x-small $large',
-  background: '$gray9',
+  background: '$gray11',
   color: '$gray12',
   borderRadius: 100,
   fontSize: '$medium',
