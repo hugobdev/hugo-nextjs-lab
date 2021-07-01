@@ -6,7 +6,7 @@ let globalStyles = global({
   body: {
     margin: 0,
     fontFamily: '$sans',
-    background: '$gray1',
+    background: 'black',
   },
 });
 

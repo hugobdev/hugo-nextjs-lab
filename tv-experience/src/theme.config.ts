@@ -27,6 +27,8 @@ export let {styled, css, global, keyframes, getCssString, theme} = createCss({
       small: '10px',
       medium: '20px',
       large: '30px',
+      'x-large': '60px',
+      'xx-large': '120px',
     },
     zIndices: {
       1: '100',
