@@ -1,12 +1,12 @@
 import React from 'react';
 import NextDocument, {Html, Head, Main, NextScript} from 'next/document';
-import {getCssString, global} from '../theme.config';
+import {getCssString, global} from '@/theme.config';
 
 let globalStyles = global({
   body: {
     margin: 0,
     fontFamily: '$sans',
-    background: '#214D3C',
+    background: '$green8',
   },
 });
 

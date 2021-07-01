@@ -1,12 +1,13 @@
 import {createCss} from '@stitches/react';
+import {grayDark, greenDark, blackA, whiteA} from '@radix-ui/colors';
 
 export const {styled, css, global, keyframes, getCssString, theme} = createCss({
   theme: {
     colors: {
-      coolgray900: 'hsla(222, 36%, 11%, 1)',
-      coolgray400: 'hsla(219, 9%, 65%, 1)',
-      coolgray50: 'hsla(210, 20%, 98%, 1)',
-      'coolgray900-7': 'hsla(222, 36%, 11%, 0.7)',
+      ...grayDark,
+      ...greenDark,
+      ...blackA,
+      ...whiteA,
     },
     fonts: {
       sans: 'Inter, -apple-system, system-ui, sans-serif',
