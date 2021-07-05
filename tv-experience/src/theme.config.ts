@@ -38,5 +38,11 @@ export let {styled, css, global, keyframes, getCssString, theme} = createCss({
       min: '1',
       max: '999',
     },
+    radii: {
+      small: '5px',
+      medium: '15px',
+      large: '25px',
+      pill: '999px',
+    },
   },
 });

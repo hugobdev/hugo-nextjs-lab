@@ -6,7 +6,7 @@ let Root = styled('div', {
   top: 0,
   left: 0,
   right: 0,
-  bottom: '25%',
+  bottom: '15%',
   background: '$gray1',
   backgroundSize: 'cover',
 });

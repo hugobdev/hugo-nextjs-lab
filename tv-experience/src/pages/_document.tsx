@@ -8,6 +8,9 @@ let globalStyles = global({
     fontFamily: '$sans',
     background: 'black',
   },
+  '*': {
+    boxSizing: 'border-box',
+  },
 });
 
 export default class Document extends NextDocument {
