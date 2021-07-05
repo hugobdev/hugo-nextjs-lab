@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import {styled} from '@/theme.config';
 
 export let Root = styled('section', {
@@ -28,7 +27,7 @@ export let List = styled('ul', {
   overflowX: 'scroll',
 });
 
-export let Item = styled('li', {
+export let ImageItem = styled('li', {
   width: 380,
   height: 240,
   position: 'relative',
